@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning CSS</title>
+    <style>
+    h1{
+      border-left: 5px yellow solid;
+      border-top: 5px  red solid;
+      border-right: 5px pink solid;
+      border-bottom: 5px green solid;
+      /*border:5px green outset;*/
+      width: 240px;
+      border-radius: 20px;
+    
+    }
+    h2,h3{
+      
+      border:5px green solid;
+      width: 240px;
+      border-radius: 20px;
+      /*transform: rotateX(5deg);
+      transform: rotateY(5deg);
+      transform: rotateZ(2deg);*/
+      animation-name: bangladesh;
+       animation-duration: 10s;
+    }
+   /* h3{
+      
+      border:5px pink solid;
+      width: 240px;
+    
+    }*/
+    @keyframes bangladesh {
+  /*from {background-color: red;}
+  to {background-color: green;}*/
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+    </style>
+</head>
+<body>
+    <h1>This is Heading</h1>
+    <h2>Bangladesh</h2>
+    <h3>Finland</h3>
+</body>
+</html>
